@@ -3,7 +3,7 @@
     padding: 0;
 }
 .main{
-    background-color: rebeccapurple;
+    background-color: #BEEF9E;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -12,25 +12,26 @@
     text-align: center;
 }
 .main_title{
-    background-color: red;
+    font-family: 'Fredoka One', cursive;
+    width: 100%;
+    color: #1E352F;
     margin-bottom: 60px;
-    font-size: 8rem;
+    font-size: 7rem;
     text-align: center;
 }
 .main_description{
-    background-color: red;
+    font-family: 'Lexend Mega', sans-serif;
+    color: #335145;
     text-align: center;
     padding: 25px;
-    font-size: 1.5rem;
 }
 .button{
-    width: fit-content;
     margin: 0 auto;
     margin-top: 60px;
-    padding: 5px;
     font-size: 1.2rem;
-    cursor: pointer;
 }
 .button a{
+    color: white;
+    padding: 5 8px;
     text-decoration: none;
 }
